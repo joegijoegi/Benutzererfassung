@@ -1,0 +1,52 @@
+h1 {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
+
+.all {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.text {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+
+#forename {
+	width: 47.5%;
+}
+#surname {
+	width: 47.5%;
+}
+
+#street {
+	width: 69%;
+}
+#number {
+	width: 26%;
+}
+
+#plz {
+	width: 26%;
+}
+#location {
+	width: 69%;
+}
+
+#age {
+	width: 26%;
+}
+#email {
+	width: 69%;
+}
+
+
+
+.complete {
+	text-align: right;
+}

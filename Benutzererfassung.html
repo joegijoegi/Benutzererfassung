@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Benutzererfassung</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <div class="all">
+        <h1>Benutzererfassung</h1>
+        <div class="name">
+          <input
+            class="text"
+            id="forename"
+            type="text"
+            placeholder="Vorname"
+            pattern="[A-Za-z ]{1,32}"
+            maxlength="32"
+            required
+          />
+          <input
+            class="text"
+            id="surname"
+            type="text"
+            placeholder="Nachname"
+            pattern="[A-Za-z ]{1,32}"
+            maxlength="32"
+            required
+          />
+        </div>
+        <div class="residence">
+          <input
+            class="text"
+            id="street"
+            type="text"
+            placeholder="Strasse"
+            pattern="[A-Za-z ]{1,32}"
+            required
+          />
+          <input
+            class="text"
+            id="number"
+            type="number"
+            max="125"
+            placeholder="Nr. (opt.)"
+          />
+        </div>
+        <div class="location">
+          <input
+            class="text"
+            id="plz"
+            type="number"
+            placeholder="PLZ"
+            min="1000"
+            max="9999"
+            required
+          />
+          <input
+            class="text"
+            id="location"
+            type="text"
+            name="place"
+            placeholder="Ort"
+            pattern="[A-Za-z ]{1,32}"
+            required
+          />
+        </div>
+        <div class="contact">
+          <input
+            class="text"
+            id="age"
+            type="number"
+            placeholder="Alter (opt.)"
+            max="125"
+          />
+          <input
+            class="text"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email-Adresse"
+            required
+          />
+        </div>
+        <div class="complete">
+          <input type="reset" value="Verwerfen" />
+          <input type="submit" value="Senden" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
